@@ -1,0 +1,26 @@
+img {
+  width: 500px;
+  height: 200px;
+}
+
+#sunset {
+  height: 500px;
+}
+
+.sunset,
+.test {
+  color: red;
+}
+
+a[href*=".html"] {
+  color: brown;
+  font-size: 50px;
+}
+
+.test {
+  font-size: 24px;
+}
+
+.container > .sunset {
+  color: aqua;
+}
