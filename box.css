@@ -1,0 +1,51 @@
+.container {
+  background-color: aqua;
+  height: 600px;
+  width: 600px;
+}
+
+.container p,
+.container > span {
+  font-size: larger;
+}
+
+.container p ~ span {
+  color: brown;
+}
+
+/* Pseudo Class Selectors */
+
+/* span:hover {
+  background-color: rgb(4, 159, 159);
+} */
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: gold;
+}
+
+ol li:nth-child(3) {
+  color: dimgray;
+}
+
+.container > p::first-line {
+  color: green;
+  font-size: 30px;
+}
+
+span::selection {
+  background-color: gold;
+  color: teal;
+}
+
+span::after {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  content: "";
+  background-color: red;
+  border-radius: 50%;
+}
