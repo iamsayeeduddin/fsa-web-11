@@ -1,0 +1,60 @@
+img {
+  height: 200px;
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 20px;
+  background-color: maroon;
+  color: white;
+  padding: 10px 15px;
+  z-index: 10;
+  border-radius: 0 10px 10px 0;
+}
+
+.box {
+  margin: 50px;
+  width: 250px;
+  height: 250px;
+  background-image: url("./assets/sunset.jpg");
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  box-shadow: 5px 30px 40px black;
+}
+
+span {
+  text-shadow: 0 0 3px #ff0000;
+  text-align: center;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  line-height: 100px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: line-through double gray;
+}
+
+ul li {
+  /* list-style-image: url("./assets/fsa.png"); */
+  list-style-type: lower-roman;
+}
+
+ul {
+  background-image: linear-gradient(green, rgb(3, 82, 3), rgb(21, 67, 21));
+}
+
+.mask {
+  -webkit-mask-image: url(./assets/image.png);
+  mask-image: url(./assets/image.png);
+  mask-repeat: repeat;
+  mask-size: contain;
+}
